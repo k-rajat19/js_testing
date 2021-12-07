@@ -1,0 +1,16 @@
+{
+  "name": "testing-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "expect": "^27.0.2",
+    "jest-circus": "^27.0.3",
+    "jest-environment-node": "^27.0.3",
+    "jest-haste-map": "^27.0.2",
+    "jest-mock": "^27.0.3",
+    "jest-worker": "^27.0.2"
+  },
+  "scripts": {
+    "test":"node index.mjs"
+  }
+}
