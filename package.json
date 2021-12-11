@@ -1,6 +1,7 @@
 {
   "name": "testing-app",
   "version": "1.0.0",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "expect": "^27.0.2",

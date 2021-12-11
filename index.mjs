@@ -25,7 +25,7 @@ const testFiles = hasteFS.matchFilesWithGlob([
 
 
 
-// / enabling worker thread --> to parallelize tests across threads within the same process
+// / enabling worker thread --> to parallelize tests across multiple threads 
 const worker = new Worker(join(root, 'worker.js'), {
   enableWorkerThreads: true,
 });
@@ -40,6 +40,7 @@ await Promise.all(Array.from(testFiles).map(async testFile => {
   console.log(status + ' ' + chalk.dim(relative(root, testFile)));
   if (!success) {
     hasFailed = true;
+    // Make use of the rich testResults and error messages.
     if (testResults) {
       testResults
         .filter((result) => result.errors.length)
@@ -48,7 +49,9 @@ await Promise.all(Array.from(testFiles).map(async testFile => {
             result.testPath.slice(1).join(' ') + '\n' + result.errors[0],
           ),
         );
-    } else if (errorMessage) {
+
+    } 
+    else if (errorMessage) {
       console.log('  ' + errorMessage);
     }
   }
