@@ -1,6 +1,5 @@
 {
   "name": "js-testing",
-  "version": "1.0.0",
   "license": "MIT",
   "description": "A javascript testing framework",
   "dependencies": {
