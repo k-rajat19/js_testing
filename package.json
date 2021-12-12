@@ -13,5 +13,9 @@
   },
   "scripts": {
     "test":"node index.mjs"
+  },
+  "bin": {
+    "js-testing": "index.mjs"
   }
+
 }

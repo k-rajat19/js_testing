@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import JestHasteMap from 'jest-haste-map';
 import {cpus} from 'os';
 import {dirname} from 'path';
@@ -8,13 +10,14 @@ import chalk from 'chalk';
 
 // Get the root path to our project (Like `__dirname`).
 const root = dirname(fileURLToPath(import.meta.url));
+const project_root = process.cwd();
 const hasteMap = new JestHasteMap.default({
   extensions: ['js'],
   maxWorkers: cpus().length,
   name: 'test-framework',
   platforms: [],
-  rootDir: root,
-  roots: [root],
+  rootDir: project_root,
+  roots: [project_root],
 });
 
 // Build and return an in-memory HasteFS ("Haste File System") instance.
