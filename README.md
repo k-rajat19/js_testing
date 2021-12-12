@@ -1,3 +1,10 @@
+<p>
+    <a href="https://www.npmjs.com/package/js-testing">
+        <img src="https://img.shields.io/npm/v/js-testing?style=flat-square" alt="npm version" />
+    </a>
+    <img src="https://img.shields.io/npm/l/color-calendar?style=flat-square" alt="license" />
+</p>
+
 - [About](#about)
 - [Usage](#usage)
 - [How it works](#works)
