@@ -1,6 +1,7 @@
 {
   "name": "js-testing",
   "license": "MIT",
+  "version": "1.0.0",
   "description": "A javascript testing framework",
   "dependencies": {
     "chalk": "^4.1.1",
