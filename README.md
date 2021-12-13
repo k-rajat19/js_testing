@@ -1,6 +1,6 @@
 <p>
-    <a href="https://www.npmjs.com/package/js-testing">
-        <img src="https://img.shields.io/npm/v/js-testing?style=flat-square" alt="npm version" />
+    <a href="https://www.npmjs.com/package/js_testing">
+        <img src="https://img.shields.io/npm/v/js_testing?style=flat-square" alt="npm version" />
     </a>
     <img src="https://img.shields.io/npm/l/color-calendar?style=flat-square" alt="license" />
 </p>
@@ -12,7 +12,7 @@
 
 <a id="about"></a>
 # About
-- `js-testing` is a JavaScript testing framework based on [jest](https://github.com/facebook/jest) architecture.
+- `js_testing` is a JavaScript testing framework based on [jest](https://github.com/facebook/jest) architecture.
 - It is build using some of `jest` packages.
 
 <br/>I've decided to make this project to understand how `jest` internally works. 
@@ -24,18 +24,18 @@ Note : Make sure you have installed node version 14+
 #### Installation
 
 ```bash
-yarn add js-testing
+yarn add js_testing
 ```
 Or
 ```bash
-npm i js-testing
+npm i js_testing
 ```
 
 Add the following section to your `package.json`:
 ```json
 {
   "scripts": {
-    "test": "js-testing"
+    "test": "js_testing"
   }
 }
 ```
