@@ -1,7 +1,7 @@
 {
-  "name": "js-testing",
+  "name": "js_testing",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A javascript testing framework",
   "dependencies": {
     "chalk": "^4.1.1",
@@ -16,7 +16,7 @@
     "test":"node index.mjs"
   },
   "bin": {
-    "js-testing": "index.mjs"
+    "js_testing": "index.mjs"
   }
 
 }
