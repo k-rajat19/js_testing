@@ -14,7 +14,7 @@ const project_root = process.cwd();
 const hasteMap = new JestHasteMap.default({
   extensions: ['js'],
   maxWorkers: cpus().length,
-  name: 'test-framework',
+  name: 'js_testing',
   platforms: [],
   rootDir: project_root,
   roots: [project_root],
