@@ -1,3 +1,10 @@
+<p>
+    <a href="https://www.npmjs.com/package/js-testing">
+        <img src="https://img.shields.io/npm/v/js-testing?style=flat-square" alt="npm version" />
+    </a>
+    <img src="https://img.shields.io/npm/l/color-calendar?style=flat-square" alt="license" />
+</p>
+
 - [About](#about)
 - [Usage](#usage)
 - [How it works](#works)
@@ -34,7 +41,7 @@ Add the following section to your `package.json`:
 ```
 
 And all set !  now you can  write  basic unit tests and to run those test - run `yarn test` or if you are using npm then `npm test`.
-<br/>You can able to use all [Matchers](https://jestjs.io/docs/using-matchers) and even [Mock Functions](https://jestjs.io/docs/mock-functions) of `jest`.
+<br/>You can able to use all [Matchers](https://jestjs.io/docs/using-matchers) and even [Mock Functions](https://jestjs.io/docs/mock-functions) of `jest`!
 
 ![2021-12-08-00-13-26 (2)](https://user-images.githubusercontent.com/81867225/145091743-c0685be1-8417-451c-869e-c9b05df60c6c.gif)
 
